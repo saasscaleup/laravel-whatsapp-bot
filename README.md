@@ -64,11 +64,18 @@ LAMBDA_API_ENDPOINT=
 
 Go to https://dashboard.ngrok.com/ and follow the instructions
 
-## Step 7 - Launch your Laravel WhatsApp Bot to the world
+## Step 7 - Launch your Laravel WhatsApp Bot to the world - Let the GAME Begin 😎🤖
 
 ```
 valet share
 ```
+
+OR 
+
+```
+php artisan serve
+```
+
 ### Update Webhooks url in Vonage Dashboard
 
 ```
@@ -78,12 +85,6 @@ HTTP POST
 Status optional, allows you to receive message status updates (e.g. delivered, seen).
 HTTP POST
 <YOUR DOMAIN>/api/whatsapp/webhooks/status
-```
-
-## Step 8 - Let the GAME Begin 😎🤖
-
-```
-valet share
 ```
 
 ## Support 🙏😃
