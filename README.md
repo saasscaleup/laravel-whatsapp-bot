@@ -1,28 +1,85 @@
-## About WhatsApp DetectText ChatBot
+# WhatsApp DetectText ChatBot
 
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+How to build WhatsAPP AI ChatBot That Detect Text in images 
 
 <a href="https://www.buymeacoffee.com/scaleupsaas"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=scaleupsaas&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
+## Step 1 - AWS Lambda with AWS Rekognition
 
-## Laravel Sponsors
+Go to Aws and create the *detect_image_text* lambda function.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Copy the content inside this file `lambda_function.py`
 
-### Premium Partners
+## Step 2 - Open Vonage(Nexemo) account
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
+Go to [vonage home page](https://www.vonage.com/)
 
-  
+Choose `Log in` 
+
+Choose `Communications APIs Login` -> Login portal
+
+## Step 3 - Get WhatsApp Sandbox phone number 
+
+Initiate WhatsApp Sandbox mode and follow the instructions
+
+## Step 4 - Clone laravel-whatsapp-bot repository 
+
+```
+git clone https://github.com/saasscaleup/laravel-whatsapp-bot.git
+```
+
+```
+cd laravel-whatsapp-bot 
+```
+
+```
+cp .env.example .env
+```
+
+```
+composer install
+```
+
+```
+valet park
+```
+
+```
+valet secure
+```
+
+## Step 5 - Set Vonage and Lambda URL values to your .env file
+
+```
+VONAGE_API_KEY=
+VONAGE_API_SECRET=
+VONAGE_WHATSAPP_NUMBER=
+VONAGE_API_ENDPOINT="https://messages-sandbox.nexmo.com/v1/messages"
+
+LAMBDA_API_ENDPOINT=
+```
+
+## Step 6 - Install Ngrok (For local use)
+
+Go to https://dashboard.ngrok.com/ and follow the instructions
+
+## Step 7 - Launch your Laravel WhatsApp Bot to the world
+
+```
+valet share
+```
+
+## Step 8 - Let the GAME Begin 😎🤖
+
+```
+valet share
+```
+
 ## Support 🙏😃
   
  If you Like the tutorial and you want to support my channel so I will keep releasing amzing content that will turn you to a desirable Developer with Amazing Cloud skills... I will realy appricite if you:
  
- 1. Subscribe to My youtube channel and leave a comment: http://www.youtube.com/@ScaleUpSaaS?sub_confirmation=1
+ 1. Subscribe to [My youtube channel](http://www.youtube.com/@ScaleUpSaaS?sub_confirmation=1) and leave a comment 
  2. Buy me A coffee ❤️ : https://www.buymeacoffee.com/scaleupsaas
 
 Thanks for your support :)
