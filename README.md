@@ -40,6 +40,7 @@ cp .env.example .env
 composer install
 ```
 
+### If You are using Mac with valet - continue here
 ```
 valet park
 ```
@@ -67,6 +68,16 @@ Go to https://dashboard.ngrok.com/ and follow the instructions
 
 ```
 valet share
+```
+### Update Webhooks url in Vonage Dashboard
+
+```
+Inbound optional, we will forward inbound messages to this URL.
+HTTP POST
+<YOUR DOMAIN>/api/whatsapp/webhooks/inbound
+Status optional, allows you to receive message status updates (e.g. delivered, seen).
+HTTP POST
+<YOUR DOMAIN>/api/whatsapp/webhooks/status
 ```
 
 ## Step 8 - Let the GAME Begin 😎🤖
