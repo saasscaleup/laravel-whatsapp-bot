@@ -10,7 +10,7 @@ Go to Aws and create the *detect_image_text* lambda function.
 
 Copy the content inside this file `lambda_function.py`
 
-## Step 2 - Open Vonage(Nexemo) account
+## Step 2 - Open Vonage(Nexmo) account
 
 Go to [vonage home page](https://www.vonage.com/)
 
