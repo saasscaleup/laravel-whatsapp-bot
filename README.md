@@ -62,7 +62,7 @@ LAMBDA_API_ENDPOINT=
 
 ## Step 6 - Install Ngrok (For local use)
 
-Go to https://dashboard.ngrok.com/ and follow the instructions
+Go to https://ngrok.com/download and follow the instructions
 
 ## Step 7 - Launch your Laravel WhatsApp Bot to the world - Let the GAME Begin 😎🤖
 
