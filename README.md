@@ -22,7 +22,7 @@ Choose `Communications APIs Login` -> Login portal
 
 Initiate WhatsApp Sandbox mode and follow the instructions
 
-## Step 4 - Clone laravel-whatsapp-bot repository 
+## Step 4 - Clone laravel-whatsapp-bot repository (Laravel 10 require php 8.1 - so make sure you have php 8.1)
 
 ```
 git clone https://github.com/saasscaleup/laravel-whatsapp-bot.git
