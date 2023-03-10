@@ -89,7 +89,7 @@ HTTP POST
 
 ## Support 🙏😃
   
- If you Like the tutorial and you want to support my channel so I will keep releasing amzing content that will turn you to a desirable Developer with Amazing Cloud skills... I will realy appricite if you:
+ If you Like the tutorial and you want to support my channel so I will keep releasing amazing content that will turn you to a desirable Developer with Amazing Cloud skills... I will really appreciate if you:
  
  1. Subscribe to [My youtube channel](http://www.youtube.com/@ScaleUpSaaS?sub_confirmation=1) and leave a comment 
  2. Buy me A coffee ❤️ : https://www.buymeacoffee.com/scaleupsaas
